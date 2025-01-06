@@ -1,4 +1,4 @@
-package com.JavaCSA.scoring_service.entity;
+package com.JavaCSA.credit_service.entity;
 
 import jakarta.persistence.*;
 import lombok.Builder;
@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Builder
 @Entity
 @Table(name = "credit-scores")
-public class creditScore {
+public class CreditEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
