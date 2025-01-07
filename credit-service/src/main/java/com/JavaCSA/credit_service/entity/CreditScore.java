@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Builder
 @Entity
 @Table(name = "credit-scores")
-public class CreditEntity {
+public class CreditScore {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
